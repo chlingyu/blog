@@ -1,5 +1,5 @@
 export const SITE = {
-  website: "https://chlingyu.github.io/blog/", // 您的GitHub Pages域名
+  website: "http://159.75.167.181/blog/", // 您的服务器地址
   author: "chlingyu", // 您的姓名
   profile: "https://github.com/chlingyu", // 您的GitHub个人页面
   desc: "分享技术与生活的个人博客", // 博客描述
