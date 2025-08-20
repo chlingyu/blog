@@ -6,7 +6,7 @@ import siteOgImage from "./og-templates/site";
 function svgBufferToPngBuffer(svg: string) {
   const resvg = new Resvg(svg);
   const pngData = resvg.render();
-  return new Uint8Array(pngData.asPng());
+  return pngData.asPng();
 }
 
 export async function generateOgImageForPost(post: CollectionEntry<"blog">) {

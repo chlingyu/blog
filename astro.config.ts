@@ -15,8 +15,6 @@ import { SITE } from "./src/config";
 export default defineConfig({
   site: SITE.website,
   base: "/blog",
-  output: "static",
-  trailingSlash: "ignore",
   integrations: [
     sitemap({
       filter: page => SITE.showArchives || !page.endsWith("/archives"),
